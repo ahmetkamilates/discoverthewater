@@ -1,0 +1,205 @@
+.historical{
+    background-color: black;
+    
+    position: relative;
+    height: 100vh;
+    
+}
+.historical-img{
+    top: 20%;
+    position: absolute;
+}
+.historical-content{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 9.5%;
+    color: white;
+    gap: 7.5%;
+}
+.historical-card:hover{
+    transform: scale(1.1);
+    transition: all 1s ease;
+    opacity: 1;
+}
+.historical-card{
+    width: 25%;
+    opacity: 0.8;
+    cursor: pointer;
+    img{
+        width: 100%;
+    }
+    h2{
+        margin: 10px 0 10px 0;
+    }
+    p{
+        font-size: small;
+        margin-bottom: 10px;
+    }
+    span{
+        font-size: small;
+    }
+}
+.historical-card-n:hover{
+    transform: scale(1.1);
+    transition: all 1s ease;
+    opacity: 1;
+}
+.historical-card-n{
+    width: 25%;
+    opacity: 0.8;
+    cursor: pointer;
+    img{
+        width: 100%;
+    }
+    h2{
+        margin: 10px 0 10px 0;
+    }
+    p{
+        font-size: small;
+        margin-bottom: 10px;
+    }
+    span{
+        font-size: small;
+    }
+}
+@media (max-width:1024px){
+    .historical{
+        background-color: black;
+        
+        position: relative;
+        height: 100vh;
+        
+    }
+    .historical-img{
+        top: 20%;
+        position: absolute;
+    }
+    .historical-content{
+        display: flex;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        right: 5%;
+        color: white;
+        gap: 10%;
+    }
+    .historical-card:hover{
+        transform: scale(1.1);
+        transition: all 1s ease;
+        opacity: 1;
+    }
+    .historical-card{
+        width: 27.5%;
+        opacity: 0.8;
+        cursor: pointer;
+        img{
+            width: 100%;
+        }
+        h2{
+            margin: 10px 0 10px 0;
+        }
+        p{
+            font-size: small;
+            margin-bottom: 10px;
+        }
+        span{
+            font-size: small;
+        }
+    }
+    .historical-card-n:hover{
+        transform: scale(1.1);
+        transition: all 1s ease;
+        opacity: 1;
+    }
+    .historical-card-n{
+        width: 25%;
+        opacity: 0.8;
+        cursor: pointer;
+        img{
+            width: 100%;
+        }
+        h2{
+            margin: 10px 0 10px 0;
+        }
+        p{
+            font-size: small;
+            margin-bottom: 10px;
+        }
+        span{
+            font-size: small;
+        }
+    }
+}
+@media (max-width:768px) and (min-width:320px){
+    .historical{
+        background-color: black;
+        
+        position: relative;
+        height: 100vh;
+        
+    }
+    .historical-img{
+        top: 20%;
+        position: absolute;
+    }
+    .historical-content{
+        display: flex;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        right: 5%;
+        color: white;
+        gap: 10%;
+    }
+    .historical-card:hover{
+        transform: scale(1.1);
+        transition: all 1s ease;
+        opacity: 1;
+    }
+    .historical-card{
+        width: 45%;
+        height: 50%;
+        opacity: 0.8;
+        cursor: pointer;
+        img{
+            width: 100%;
+            height: 200%;
+        }
+        h2{
+            margin: 10px 0 20px 0;
+        }
+        p{
+            font-size: small;
+            margin-bottom: 20px;
+        }
+        span{
+            font-size: small;
+        }
+    }
+    .historical-card-n:hover{
+        transform: scale(1.1);
+        transition: all 1s ease;
+        opacity: 1;
+    }
+    .historical-card-n{
+        width: 25%;
+        opacity: 0.8;
+        cursor: pointer;
+        display: none;
+        img{
+            width: 100%;
+        }
+        h2{
+            margin: 10px 0 10px 0;
+        }
+        p{
+            font-size: small;
+            margin-bottom: 10px;
+        }
+        span{
+            font-size: small;
+        }
+    }
+    
+}

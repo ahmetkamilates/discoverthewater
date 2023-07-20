@@ -1,0 +1,255 @@
+.discover-section{
+    position: relative;
+    z-index: 0;
+    width: 100;
+}
+
+.discover-img{
+    width: 100%;
+    height: 100%;
+}
+.discover-container{
+    display: flex;
+}
+.discover-container-right{
+    position: absolute;
+    z-index: 1;
+    top: 15%;
+    left: 10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+}
+.discover-right-title{
+    position: absolute;
+    width: 70%;
+    h1{
+        font-size: 60px;
+        margin-bottom: 5%;
+    }
+    p{
+        font-size: 30px;
+    }
+}
+.discover-border{
+    position: absolute;
+  
+    width: 50%;
+    height: 30%;
+    top: 35%;
+    border: 1px solid gainsboro;
+    border-top-width: 0px;
+    border-left-width: 2px;
+    border-right-width: 0px;
+    
+}
+s{
+    text-decoration: none;
+    font-size: small;
+    position: absolute;
+    color: gainsboro;
+    top: 64%;
+    left: 51%;
+    
+}
+.discover-container-left{
+    position: absolute;
+    top: 25%;
+    left: 53%;
+    color: white;
+    backdrop-filter: blur(5px);
+    padding: 2%;
+    border-radius: 10px;
+    width: 35%;
+    cursor: pointer;
+}
+.discover-container-left:hover{
+    transform: scale(1.1);
+    backdrop-filter: blur(0px);
+    transition: all 1s ease;
+}
+.left-card{
+    margin-bottom: 5%;
+    h2{
+        margin-bottom: 3%;
+    }
+}
+@media (max-width:1024px){
+    .discover-section{
+        position: relative;
+        z-index: 0;
+        width: 100;
+    }
+    
+    .discover-img{
+        width: 100%;
+        height: 100%;
+    }
+    .discover-container{
+        display: flex;
+    }
+    .discover-container-right{
+        position: absolute;
+        z-index: 1;
+        top: 15%;
+        left: 5%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 90%;
+    }
+    .discover-right-title{
+        position: absolute;
+        width: 70%;
+        h1{
+            font-size: 50px;
+            margin-bottom: 5%;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .discover-border{
+        position: absolute;
+      
+        width: 50%;
+        height: 30%;
+        top: 35%;
+        border: 1px solid gainsboro;
+        border-top-width: 0px;
+        border-left-width: 2px;
+        border-right-width: 0px;
+        
+    }
+    s{
+        text-decoration: none;
+        font-size: small;
+        position: absolute;
+        color: gainsboro;
+        top: 64%;
+        left: 51%;
+        
+    }
+    .discover-container-left{
+        position: absolute;
+        top: 20%;
+        left: 63%;
+        color: white;
+        backdrop-filter: blur(5px);
+        padding: 2%;
+        border-radius: 10px;
+        width: 35%;
+        cursor: pointer;
+    }
+    .discover-container-left:hover{
+        transform: scale(1.1);
+        backdrop-filter: blur(0px);
+        transition: all 1s ease;
+    }
+    .left-card{
+        margin-bottom: 5%;
+        h2{
+            margin-bottom: 3%;
+            font-size: 20px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}
+@media (max-width:768px) and (min-width:320px){
+    .discover-section{
+        position: relative;
+        z-index: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .discover-img{
+        width: 100%;
+        height: 100%;
+    }
+    .discover-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .discover-container-right{
+        position: absolute;
+        z-index: 1;
+        top: 15%;
+        left: 5%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90%;
+    }
+    .discover-right-title{
+        position: absolute;
+        width: 120%;
+        align-items: center;
+        h1{
+            font-size: 50px;
+            margin-left: 5%;
+            margin-bottom: 5%;
+        }
+        p{
+            font-size: 20px;
+            margin-left: 2%;
+        }
+    }
+    .discover-border{
+        position: absolute;
+      
+        width: 50%;
+        height: 30%;
+        top: 35%;
+        border: 0px solid gainsboro;
+        border-top-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        
+    }
+    s{
+        text-decoration: none;
+        font-size: larger;
+        position: absolute;
+        color: gainsboro;
+        top: 30%;
+        left: 30%;
+        
+    }
+    .discover-container-left{
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        color: white;
+        backdrop-filter: blur(5px);
+        padding: 2%;
+        border-radius: 10px;
+        width: 100%;
+        z-index: 1;
+        cursor: pointer;
+    }
+    .discover-container-left:hover{
+        transform: scale(1);
+    }
+    .left-card{
+        align-items: center;
+        
+        margin-bottom: 5%;
+        h2{
+            margin-bottom: 3%;
+            font-size: 20px;
+            margin-left: 35%;
+        }
+        p{
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 10px;
+        }
+    }
+}

@@ -1,0 +1,394 @@
+.footer{
+    background-color: black;
+    position: relative;
+    height: 100vh;
+}
+
+.list-card{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    color: white;
+    top: 3%;
+    left: 10%;
+    gap: 28%;
+   
+}
+.list-card-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+   
+    h2{
+        font-size: large;
+        margin-bottom: 20px;
+        width: 300%;
+        color: #68B1C8;
+    }
+    hr{
+        margin-top: -5px;
+        width: 200%;
+        
+        color: #68B1C8;
+    }
+    li{
+        margin-bottom: 20px;
+        width: 300%;
+        font-size: small;
+        cursor: pointer;
+    }
+    li:hover{
+        backdrop-filter: blur(10px);
+        background-color: grey;
+        padding: 5px 0px 5px 5px;
+        border-radius: 10px;
+        transition: all 1s ease;
+    }
+} 
+.footer-input{
+    position: absolute;
+    top: 48%;
+    left: 33%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+  
+    p{
+        font-size: small;
+    }
+    
+    .form-check{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-left: -70%;
+        cursor: pointer;
+        font-size: small;
+        input{
+            border-radius: 2px solid gainsboro;
+        }
+    }
+    
+}
+.input{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-bottom: 10px;
+        margin-left: -60%;
+        position: relative;
+        
+         input{
+        border: 2px solid gainsboro;
+        padding-bottom: 10px;
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-left-width: 0px;
+        border-bottom-width:400% ;
+        background-color: black;
+        color: white;
+    }
+        button{
+            background-color: black;
+            border: 2px solid gainsboro;
+            color: gainsboro;
+            padding:  5px 10px;
+            font-size: small;
+            left: 200%;
+            position: absolute;
+        }
+        button:hover{
+            background-color: gainsboro;
+            color: black;
+            border: 2px solid black;
+            transition: all 1s ease;
+        }
+       
+    }
+    .footer-last{
+        font-size: smaller;
+    }
+    .i-card{
+        position: absolute;
+        top: 78%;
+        left: 42%;
+        display: flex;
+        gap: 20%;
+        i{
+            font-size: x-large;
+            color: white;
+            cursor: pointer;
+        }
+        i:hover{
+            transform: scale(1.1);
+            transition: all 1s ease;
+            opacity: 0.8;
+        }
+    }
+    @media (max-width:1024px){
+        .footer{
+            background-color: black;
+            position: relative;
+            height: 100vh;
+        }
+        
+        .list-card{
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            color: white;
+            top: 3%;
+            left: 3%;
+            gap: 18%;
+           
+        }
+        .list-card-ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+           
+            h2{
+                font-size: large;
+                margin-bottom: 20px;
+                width: 300%;
+                color: #68B1C8;
+            }
+            hr{
+                margin-top: -5px;
+                width: 200%;
+                
+                color: #68B1C8;
+            }
+            li{
+                margin-bottom: 20px;
+                width: 300%;
+                font-size: small;
+                cursor: pointer;
+            }
+            li:hover{
+                backdrop-filter: blur(10px);
+                background-color: grey;
+                padding: 5px 0px 5px 5px;
+                border-radius: 10px;
+                transition: all 1s ease;
+            }
+        } 
+        .footer-input{
+            position: absolute;
+            top: 53%;
+            left: 33%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 10px;
+          
+            p{
+                font-size: small;
+            }
+            
+            .form-check{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                margin-left: -70%;
+                cursor: pointer;
+                font-size: small;
+                input{
+                    border-radius: 2px solid gainsboro;
+                }
+            }
+            
+        }
+        .input{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                margin-bottom: 10px;
+                margin-left: -60%;
+                position: relative;
+                
+                 input{
+                border: 2px solid gainsboro;
+                padding-bottom: 10px;
+                border-top-width: 0px;
+                border-right-width: 0px;
+                border-left-width: 0px;
+                border-bottom-width:400% ;
+                background-color: black;
+                color: white;
+            }
+                button{
+                    background-color: black;
+                    border: 2px solid gainsboro;
+                    color: gainsboro;
+                    padding:  5px 10px;
+                    font-size: small;
+                    left: 200%;
+                    position: absolute;
+                }
+                button:hover{
+                    background-color: gainsboro;
+                    color: black;
+                    border: 2px solid black;
+                    transition: all 1s ease;
+                }
+               
+            }
+            .footer-last{
+                font-size: smaller;
+            }
+            .i-card{
+                position: absolute;
+                top: 83%;
+                left: 42%;
+                display: flex;
+                gap: 20%;
+                i{
+                    font-size: x-large;
+                    color: white;
+                    cursor: pointer;
+                }
+                i:hover{
+                    transform: scale(1.1);
+                    transition: all 1s ease;
+                    opacity: 0.8;
+                }
+            }
+    }
+    @media (max-width:768px) and (min-width:320px){
+        .footer{
+            background-color: black;
+            position: relative;
+            height: 150vh;
+        }
+        
+        .list-card{
+            display: flex;
+           flex-wrap: wrap;
+            position: absolute;
+            color: white;
+            top: 3%;
+            left: 3%;
+            gap: 30%;
+           row-gap: 20%;
+        }
+        .list-card-ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+           
+            h2{
+                font-size: large;
+                margin-bottom: 20px;
+                width: 100%;
+                color: #68B1C8;
+            }
+            hr{
+                margin-top: -5px;
+                width: 120%;
+                
+                color: #68B1C8;
+            }
+            li{
+                margin-bottom: 20px;
+                width: 100%;
+                font-size: small;
+                cursor: pointer;
+            }
+            li:hover{
+                backdrop-filter: blur(10px);
+                background-color: grey;
+                padding: 5px 0px 5px 5px;
+                border-radius: 10px;
+                transition: all 1s ease;
+            }
+        } 
+        #list-card-n{
+            margin-left: -8%;
+        }
+        .footer-input{
+            position: absolute;
+            top: 70%;
+            left: 10%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 10px;
+          
+            p{
+                font-size: small;
+            }
+            
+            .form-check{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                margin-left: -70%;
+                cursor: pointer;
+                font-size: small;
+                input{
+                    border-radius: 2px solid gainsboro;
+                }
+            }
+            
+        }
+        .input{
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                margin-bottom: 10px;
+                margin-left: -60%;
+                position: relative;
+                
+                 input{
+                border: 2px solid gainsboro;
+                padding-bottom: 10px;
+                border-top-width: 0px;
+                border-right-width: 0px;
+                border-left-width: 0px;
+                border-bottom-width:400% ;
+                background-color: black;
+                color: white;
+            }
+                button{
+                    background-color: black;
+                    border: 2px solid gainsboro;
+                    color: gainsboro;
+                    padding:  5px 10px;
+                    font-size: small;
+                    left: 200%;
+                    position: absolute;
+                }
+                button:hover{
+                    background-color: gainsboro;
+                    color: black;
+                    border: 2px solid black;
+                    transition: all 1s ease;
+                }
+               
+            }
+            .footer-last{
+                font-size: smaller;
+            }
+            .i-card{
+                position: absolute;
+                top: 93%;
+                left: 30%;
+                display: flex;
+                gap: 20%;
+                i{
+                    font-size: x-large;
+                    color: white;
+                    cursor: pointer;
+                }
+                i:hover{
+                    transform: scale(1.1);
+                    transition: all 1s ease;
+                    opacity: 0.8;
+                }
+            }
+    }
